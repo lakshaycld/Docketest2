@@ -26,9 +26,9 @@ metadata:
   labels:
     run: my-nginx
 spec:
-type: LoadBalancer
   ports:
   - port: 80
     protocol: TCP
   selector:
     run: my-nginx
+  type: LoadBalancer
