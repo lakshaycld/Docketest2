@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-nginx
-        image: lakacr12345.azurecr.io/lakshaycld/docketest2:15
+        image: lakacr12345.azurecr.io/lakshaycld/docketest2:16
         ports:
         - containerPort: 80
 # service type loadbalancer       
